@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video with Fallback</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+        <source src="bg.webm" type="video/webm">
+        <source src="bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Fallback Animation -->
+    <div id="fallback">
+        <img src="./01.png" alt="Profile Picture" id="profile-pic">
+        <div id="title">
+            <span>Welcome</span><br>
+            <span>This Website is Coming soon</span><br>
+            <span>Stay Tuned</span>
+
+        </div>
+    </div>
+</body>
+</html>
